@@ -1,17 +1,44 @@
 <template>
-  <div class="jumbo"></div>
+  <div class="jumbo">
+    <div class="text-center">
+      <h2>Financial Risk</h2>
+      <p class="font-grey">The right outcomes depend on continuous rigor in governance, models and processes across the finance function.</p>
+      <Button class="btn-brand" text="Get in touch"/>
+      <Button class="btn-border" text="Read More" />
+    </div>
+  </div>
 </template>
 
 <script>
+import Button from './Button.vue'
+
 export default {
 name: 'Jumbo',
+components: {
+  Button
+}
 }
 </script>
 
 <style scoped lang="scss">
-    .jumbo {
-        background-image: url('../assets/images/bg-2.jpg');
-        background-size: cover;
-        height: 400px;
+  .jumbo {
+    background-image: url('../assets/images/bg-2.jpg');
+    background-size: cover;
+    height: 400px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div {
+      max-width: 50%;
     }
+  }
+  p {
+    font-size: 0.65rem;
+    padding: 20px 0;
+  }
+  .btn-brand, .btn-border {
+    margin: 0 5px;
+  }
+
 </style>

@@ -11,8 +11,23 @@
     color: $brand-primary;
 }
 
-.bg-brand {
+.btn-brand {
     background-color: $brand-primary;
+    border-color: transparent;
+}
+
+.btn-border {
+    border-color: $brand-primary;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.font-grey {
+    color: #bcbdbd;
 }
 
 .pe-5 {

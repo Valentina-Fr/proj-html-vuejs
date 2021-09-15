@@ -19,7 +19,7 @@
           <li v-for="(link, index) in links" :key="index"><a :href="link.url">{{link.text}}</a></li>
         </ul>
         <a href="#"><img class="download" src="@/assets/images/image (1).png" alt="download"></a>
-        <Button class="bg-brand" text="Get in touch"/>
+        <Button class="btn-brand" text="Get in touch"/>
       </div>
     </div>
   </header>
@@ -51,7 +51,7 @@ props: ['links'],
     font-style: normal;
     display: flex;
     justify-content: space-between;
-    padding: 5px 50px;
+    padding: 10px 50px;
   }
   #bottom-header {
     display: flex;
