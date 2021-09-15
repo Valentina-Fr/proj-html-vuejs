@@ -14,13 +14,26 @@
     </address>
     <div id="bottom-header">
       <h1><span class="brand-color">NEX</span>GEN</h1>
+      <div class="d-flex">
+        <ul>
+          <li v-for="(link, index) in links" :key="index"><a :href="link.url">{{link.text}}</a></li>
+        </ul>
+        <a href="#"><img class="download" src="@/assets/images/image (1).png" alt="download"></a>
+        <Button class="bg-brand" text="Get in touch"/>
+      </div>
     </div>
   </header>
 </template>
 
 <script>
+import Button from './Button.vue'
+
 export default {
 name: 'Header',
+components: {
+  Button,
+},
+props: ['links'],
 }
 </script>
 
@@ -43,7 +56,23 @@ name: 'Header',
   #bottom-header {
     display: flex;
     justify-content: space-between;
-    padding: 5px 50px;
+    align-items: center;
+    padding: 10px 50px;
+  }
+  ul {
+    display: flex;
+      li a{
+        font-size: 0.8rem;
+        padding-right: 10px;
+        text-transform: uppercase;
+      }
+  }
+  .download {
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  .d-flex {
+    align-items: center;
   }
  
 </style>

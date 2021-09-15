@@ -3,8 +3,16 @@
     margin: 0 auto;
 }
 
-.row {
+.d-flex {
     display: flex;
+}
+
+.brand-color {
+    color: $brand-primary;
+}
+
+.bg-brand {
+    background-color: $brand-primary;
 }
 
 .pe-5 {

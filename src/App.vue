@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header />
+    <Header :links="menuLinks"/>
     <Jumbo />
   </div>
 </template>
@@ -14,6 +14,32 @@ export default {
   components: {
     Header,
     Jumbo,
+  },
+  data(){
+    return {
+      menuLinks: [
+        {
+          text: 'Home',
+          url: '#'
+        },
+        {
+          text: 'About',
+          url: '#'
+        },
+        {
+          text: 'Services',
+          url: '#'
+        },
+        {
+          text: 'Team',
+          url: '#'
+        },
+        {
+          text: 'Blog',
+          url: '#'
+        },
+      ]
+    }
   }
 }
 </script>
