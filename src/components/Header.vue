@@ -1,18 +1,20 @@
 <template>
   <header>
     <address id="upper-header">
-      <div class="container">
-        <i class="fas fa-clock"></i><span>Open hours-Mon-Sat-9-18</span>
+      <div>
+        <i class="fas fa-clock pe-5"></i><span>Open hours-Mon-Sat-9-18</span>
       </div>
-      <div class="container">
-        <i class="fas fa-phone-alt"></i><span>+(1306) 1234 5678</span>
-        <i class="fas fa-envelope"></i><span>hello@example.com</span>
-        <i class="fab fa-facebook-f"></i>
-        <i class="fab fa-twitter"></i>
+      <div>
+        <i class="fas fa-phone-alt pe-5"></i><span class="pe-15">+(1306) 1234 5678</span>
+        <i class="fas fa-envelope pe-5"></i><span class="pe-15">hello@example.com</span>
+        <i class="fab fa-facebook-f pe-15"></i>
+        <i class="fab fa-twitter pe-15"></i>
         <i class="fab fa-linkedin-in"></i>
       </div>
     </address>
-    <div id="bottom-header"></div>
+    <div id="bottom-header">
+      <h1><span class="brand-color">NEX</span>GEN</h1>
+    </div>
   </header>
 </template>
 
@@ -36,8 +38,12 @@ name: 'Header',
     font-style: normal;
     display: flex;
     justify-content: space-between;
-      * {
-        padding: 5px 10px;
-      }
+    padding: 5px 50px;
   }
+  #bottom-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 50px;
+  }
+ 
 </style>
