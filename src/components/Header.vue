@@ -13,7 +13,7 @@
       </div>
     </address>
     <div id="bottom-header">
-      <h1><span class="brand-color">NEX</span>GEN</h1>
+      <h2><span class="brand-color">NEX</span>GEN</h2>
       <div class="d-flex">
         <ul>
           <li v-for="(link, index) in links" :key="index"><a :href="link.url">{{link.text}}</a></li>

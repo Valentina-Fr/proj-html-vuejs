@@ -1,7 +1,7 @@
 <template>
   <section class="container-sm text-center">
-    <h6 class="brand-color">INTRODUCTION VIDEO</h6>
-    <h3>Advisory <span class="brand-bg brand-color">Performance</span></h3>
+    <h5 class="brand-color">INTRODUCTION VIDEO</h5>
+    <h2>Advisory <span class="brand-bg-secondary brand-color">Performance</span></h2>
     <p class="font-grey">Financial executive need to review their strategies, operating models and capabilities so that their areas can generate sound information for better decision making</p>
     <div class="video">
         <img src="@/assets/images/video-1.jpg" alt="video">
@@ -17,11 +17,11 @@ name: 'Advisory'
 </script>
 
 <style scoped lang="scss">
-h6 {
+h5 {
     margin-top: 20px;
 }
 
-h3 {
+h2 {
     margin: 10px 0;
 }
 
@@ -31,7 +31,7 @@ p {
 
 img {
     width: 80%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .video {

@@ -4,6 +4,7 @@
     <Jumbo />
     <main>
       <Advisory />
+      <Results />
     </main>
   </div>
 </template>
@@ -12,13 +13,15 @@
 import Header from './components/Header.vue'
 import Jumbo from './components/Jumbo.vue'
 import Advisory from './components/Advisory.vue'
+import Results from './components/Results.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
     Jumbo,
-    Advisory
+    Advisory, 
+    Results
   },
   data(){
     return {

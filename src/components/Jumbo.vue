@@ -1,7 +1,7 @@
 <template>
   <div class="jumbo">
     <div class="text-center">
-      <h2>Financial Risk</h2>
+      <h1>Financial Risk</h1>
       <p class="font-grey">The right outcomes depend on continuous rigor in governance, models and processes across the finance function.</p>
       <Button class="btn-brand" text="Get in touch"/>
       <Button class="btn-border" text="Read More" />
