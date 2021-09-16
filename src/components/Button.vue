@@ -18,5 +18,6 @@ props: ['text']
         font-size: 0.9rem;
         border-width: 1px;
         border-style: solid;
+        flex-shrink: 0;
     }
 </style>

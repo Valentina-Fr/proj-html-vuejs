@@ -1,5 +1,5 @@
 <template>
-  <section class="container text-center">
+  <section class="text-center">
       <h5 class="brand-color">WHAT ARE WE DOING</h5>
       <h2><span class="brand-bg">Results</span> in Numbers</h2>
       <ul class="d-flex">
@@ -43,15 +43,11 @@ h5 {
     padding-bottom: 20px;
 }
 
-h2 {
-    padding-bottom: 40px 0;
-}
-
 ul {
     margin-top: 40px;
     justify-content: center;
     li {
-        padding: 25px;
+        padding: 25px 100px;
     }
 }
 

@@ -5,6 +5,7 @@
     <main>
       <Advisory />
       <Results />
+      <Services />
     </main>
   </div>
 </template>
@@ -14,6 +15,7 @@ import Header from './components/Header.vue'
 import Jumbo from './components/Jumbo.vue'
 import Advisory from './components/Advisory.vue'
 import Results from './components/Results.vue'
+import Services from './components/Services.vue'
 
 export default {
   name: 'App',
@@ -21,7 +23,8 @@ export default {
     Header,
     Jumbo,
     Advisory, 
-    Results
+    Results,
+    Services
   },
   data(){
     return {
