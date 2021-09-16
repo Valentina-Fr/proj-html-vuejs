@@ -15,7 +15,7 @@ props: ['text']
         border-radius: 5px;
         padding: 5px 10px;
         text-transform: uppercase;
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         border-width: 1px;
         border-style: solid;
     }

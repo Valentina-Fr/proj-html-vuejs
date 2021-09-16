@@ -3,12 +3,21 @@
     margin: 0 auto;
 }
 
+.container-sm {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 .d-flex {
     display: flex;
 }
 
 .brand-color {
     color: $brand-primary;
+}
+
+.brand-bg {
+    background-color: $brand-secondary;
 }
 
 .btn-brand {

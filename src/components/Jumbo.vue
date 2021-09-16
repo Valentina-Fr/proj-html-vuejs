@@ -33,12 +33,11 @@ components: {
       max-width: 50%;
     }
   }
-  p {
-    font-size: 0.65rem;
-    padding: 20px 0;
-  }
   .btn-brand, .btn-border {
     margin: 0 5px;
   }
+  p {
+     padding: 20px 0;
 
+  }
 </style>

@@ -39,7 +39,7 @@ props: ['links'],
 
 <style scoped lang="scss">
   header {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -47,7 +47,7 @@ props: ['links'],
   }
   #upper-header {
     background-color: #21333e;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     font-style: normal;
     display: flex;
     justify-content: space-between;
@@ -62,7 +62,7 @@ props: ['links'],
   ul {
     display: flex;
       li a{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         padding-right: 10px;
         text-transform: uppercase;
       }
