@@ -8,6 +8,7 @@
       <Services />
       <Experts />
       <News />
+      <Know />
     </main>
   </div>
 </template>
@@ -20,6 +21,7 @@ import Results from './components/Results.vue'
 import Services from './components/Services.vue'
 import Experts from './components/Experts.vue'
 import News from './components/News.vue'
+import Know from './components/Know.vue'
 
 export default {
   name: 'App',
@@ -30,7 +32,8 @@ export default {
     Results,
     Services,
     Experts,
-    News
+    News,
+    Know
   },
   data(){
     return {
