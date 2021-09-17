@@ -166,5 +166,6 @@ data(){
 #bottom-footer {
     background-color: #060a0c;
     padding: 30px 0;
+    font-size: 0.8rem;
 }
 </style>

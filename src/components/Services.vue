@@ -124,14 +124,13 @@ p {
     margin-bottom: 20px;
     .fas {
         font-size: 30px;
-        vertical-align: middle;
-        padding-left: 20px;
+        margin-left: 20px;
+        padding: 8px;
     }
 
     .fa-arrow-right {
         font-size: 20px;
-        padding-right: 20px;
-        padding-left: 70%;
+        margin-right: 20px;
     }
     
     h4 {
@@ -140,5 +139,21 @@ p {
     p {
         padding: 20px 30px;
     }
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card:hover .fas, .card:hover p {
+    color: #fff;
+}
+
+.card:hover .fa-arrow-right{
+    color: #fff;
+    border-radius: 50%;
+    background-color: #41c457;
 }
 </style>
