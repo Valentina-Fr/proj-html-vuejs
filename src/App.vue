@@ -11,6 +11,7 @@
       <Know />
       <Send />
     </main>
+    <Footer />
   </div>
 </template>
 
@@ -24,6 +25,7 @@ import Experts from './components/Experts.vue'
 import News from './components/News.vue'
 import Know from './components/Know.vue'
 import Send from './components/Send.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
@@ -36,7 +38,8 @@ export default {
     Experts,
     News,
     Know,
-    Send
+    Send,
+    Footer
   },
   data(){
     return {

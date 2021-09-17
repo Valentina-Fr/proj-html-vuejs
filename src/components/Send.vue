@@ -20,7 +20,7 @@
             <h3>Exemple Inc.</h3>
             <p class="font-grey py-10">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <p class="font-grey py-10">Consectetur laborum pariatur exercitationem ad cupiditate ex consequuntur aperiam quibusdam possimus a aspernatur, eligendi reprehenderit totam soluta.</p>
-            <div class="tel brand-color py-10">
+            <div class="tel brand-color">
                 <i class="fas fa-phone-alt"></i>
                 <span>+1(305) 345 6789</span>
             </div>
@@ -93,6 +93,10 @@ textarea {
     display: block;
     font-family: sans-serif;
     color: #757575;
+}
+
+.tel {
+    margin-top: 30px;
 }
 
 .fas {
