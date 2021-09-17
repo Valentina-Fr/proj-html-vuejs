@@ -34,10 +34,10 @@ components: {
     }
   }
   .btn-brand, .btn-border {
-    margin: 0 5px;
+    margin: 0 15px;
   }
   p {
-     padding: 20px 0;
-
+    font-size: 0.9rem;
+    padding: 20px 0;
   }
 </style>

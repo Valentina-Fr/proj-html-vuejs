@@ -19,5 +19,10 @@ props: ['text']
         border-width: 1px;
         border-style: solid;
         flex-shrink: 0;
+        transition: transform 0.3s;
+    }
+
+    button:hover {
+      transform: scale(1.2);
     }
 </style>

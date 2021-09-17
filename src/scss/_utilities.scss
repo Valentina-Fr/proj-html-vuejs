@@ -28,6 +28,10 @@
     padding: 5px 8px;
 }
 
+[class^="btn"] {
+    cursor: pointer;
+}
+
 .btn-brand {
     background-color: $brand-primary;
     border-color: transparent;
