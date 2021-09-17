@@ -24,6 +24,7 @@ props: ['links', 'title']
     background-color: rgba(22, 30, 33, 0.4);
     padding: 25px 0 0 25px;
     h4 {
+        color: #fff;
         padding-bottom: 20px;
     }
     li {

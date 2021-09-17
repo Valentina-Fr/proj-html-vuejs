@@ -1,10 +1,10 @@
 <template>
-  <footer>
-      <div class="upper-footer">
+  <footer class="font-grey">
+      <div id="upper-footer">
             <div class="container d-flex">
                 <div class="col-3">
                     <h2 class="py-10"><span class="brand-color brand-bg-secondary">NEX</span> GEN</h2>
-                    <p class="font-grey py-10">A functional HTML template for corporate &amp; business</p>
+                    <p class="py-10">A functional HTML template for corporate &amp; business</p>
                     <div class="tel">
                         <i class="fas fa-phone-alt"></i>
                         <span>+1(305) 345 6789</span>
@@ -30,7 +30,15 @@
                 </div>
             </div>
         </div> 
-      <div class="bottom-footer"></div>
+      <div id="bottom-footer">
+          <div class="container d-flex font-grey">
+              <div>Enjoy the low price. We are tracking any intention of privacy</div>
+              <div>
+                  <i class="far fa-copyright"></i> 2020 NEXGEN is Proudly Powered by 
+                  <a class="brand-color" href="#">Codings.</a>
+               </div>
+          </div>
+      </div>
   </footer>
 </template>
 
@@ -130,11 +138,8 @@ data(){
 </script>
 
 <style scoped lang="scss">
-footer {
-    color: #fff;
-}
 
-.upper-footer {
+#upper-footer {
    background-image: url(../assets/images/bg-7.jpg);
    background-size: cover;
    padding: 100px 0;
@@ -156,5 +161,10 @@ footer {
 .fas {
     margin-bottom: 20px;
     margin-right: 10px;
+}
+
+#bottom-footer {
+    background-color: #060a0c;
+    padding: 30px 0;
 }
 </style>
