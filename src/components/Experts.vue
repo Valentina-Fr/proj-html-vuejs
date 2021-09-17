@@ -85,8 +85,8 @@ name: 'Experts'
 
 <style scoped lang="scss">
     section {
-        margin-top: 40px;
-        margin-bottom: 40px;
+        margin-top: 60px;
+        margin-bottom: 60px;
     }
     .row {
         display: flex;

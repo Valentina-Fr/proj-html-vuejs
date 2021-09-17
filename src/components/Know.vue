@@ -29,7 +29,7 @@ components: {
 section {
     background-color: #111117;
     color: #fff;
-    padding: 30px 0;
+    padding: 50px 0 60px 0;
 }
 
 .d-flex {

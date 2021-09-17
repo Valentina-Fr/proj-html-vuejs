@@ -50,8 +50,8 @@ components: {
 
 <style scoped lang="scss">
 .d-flex {
-    padding-top: 40px;
-    padding-bottom: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 h2 {

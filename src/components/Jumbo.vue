@@ -24,7 +24,7 @@ components: {
   .jumbo {
     background-image: url('../assets/images/bg-2.jpg');
     background-size: cover;
-    height: 600px;
+    height: 100vh;
     color: #fff;
     display: flex;
     justify-content: center;

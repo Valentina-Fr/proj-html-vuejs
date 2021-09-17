@@ -63,6 +63,10 @@ data(){
 </script>
 
 <style scoped lang="scss">
+section {
+    padding: 40px 0 50px 0;
+}
+
 h5 {
     padding-top: 40px;
     padding-bottom: 20px;

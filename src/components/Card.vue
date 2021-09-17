@@ -41,8 +41,9 @@ props: ['newsItem']
     p {
         display: none;
         position: absolute;
-        bottom: 20px;
+        bottom: 30px;
         left: 20px;
+        right: 20px;
         color: #fff;
         text-align: center;
         font-size: 1rem;
@@ -52,7 +53,7 @@ props: ['newsItem']
         display: none;
         position: absolute;
         top: 40px;
-        left: 20px;
+        left: 10px;
         z-index: 1;
     }
 }
@@ -79,4 +80,7 @@ address div{
     background-color: rgba(1,1,1,0.7);
 }
 
+.fas, .far {
+    margin-right: 8px;
+}
 </style>

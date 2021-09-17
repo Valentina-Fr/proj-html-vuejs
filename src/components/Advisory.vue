@@ -18,7 +18,8 @@ name: 'Advisory'
 
 <style scoped lang="scss">
 section {
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 50px;
 }
 
 h5 {
