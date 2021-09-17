@@ -33,19 +33,28 @@ data(){
                 imgUrl: require ('../assets/images/news-1.jpg'),
                 title: 'news 1',
                 text: 'Increasing creativity is possible for everyone',
-                url:'#'
+                url:'#',
+                author: 'Andrea Miller',
+                days: '2',
+                preview: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit.'
             },
             {
                 imgUrl: require ('../assets/images/news-2.jpg'),
                 title: 'news 2',
                 text: 'Because market research is part of the business plan',
-                url:'#'
+                url:'#',
+                author: 'John Doe',
+                days: '4',
+                preview: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit.'
             },
             {
                imgUrl: require ('../assets/images/news-3.jpg'),
                title: 'news 3',
                text: 'Working from home is a new trend',
-               url:'#'
+               url:'#',
+               author: 'Jane Smith',
+               days: '6',
+               preview: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit.'
             }
         ]
     }

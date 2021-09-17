@@ -67,10 +67,10 @@
             <div>
                 <div class="speech brand-bg">
                     <h4 class="py-30">President speech</h4>
-                    <p class="font-grey py-10">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, non officiis nam libero, eum voluptatibus officia vitae consectetur dicta illo doloribus fuga tempore at explicabo ipsam corporis eaque illum animi.</p>
-                    <p class="font-grey py-10">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, non officiis nam libero, eum voluptatibus officia vitae consectetur dicta illo doloribus fuga tempore at explicabo ipsam corporis eaque illum animi.</p>
-                    <p class="font-grey py-10">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, non officiis nam libero, eum voluptatibus officia vitae consectetur dicta illo doloribus fuga tempore at explicabo ipsam corporis eaque illum animi.</p>
-                    <address class="py-30">T.Johnson<i class="fas fa-quote-right font-grey"></i></address>
+                    <p class="py-10">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, non officiis nam libero, eum voluptatibus officia vitae consectetur dicta illo doloribus fuga tempore at explicabo ipsam corporis eaque illum animi.</p>
+                    <p class="py-10">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, non officiis nam libero, eum voluptatibus officia vitae consectetur dicta illo doloribus fuga tempore at explicabo ipsam corporis eaque illum animi.</p>
+                    <p class="py-10">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, non officiis nam libero, eum voluptatibus officia vitae consectetur dicta illo doloribus fuga tempore at explicabo ipsam corporis eaque illum animi.</p>
+                    <address class="py-30">T.Johnson<i class="fas fa-quote-right"></i></address>
                 </div>
             </div>
         </div>
@@ -142,5 +142,6 @@ name: 'Experts'
 
     .fa-quote-right {
        padding-left: 180px;
+       color: #046162;
     }
 </style>
