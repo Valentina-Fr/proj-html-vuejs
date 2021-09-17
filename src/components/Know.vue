@@ -7,9 +7,9 @@
             <p class="font-grey">Follow closely and receive content about our company and the news of the current market.</p>
         </div>
         <div class="form">
-        <input type="text" placeholder="Name"> 
-        <input type="text" placeholder="E-mail">
-        <Button class="btn-brand" text="Subscribe"/>
+            <input type="text" placeholder="Name"> 
+            <input type="email" placeholder="E-mail">
+            <Button class="btn-brand" text="Subscribe"/>
         </div>
       </div>
   </section>
