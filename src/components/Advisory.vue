@@ -17,6 +17,10 @@ name: 'Advisory'
 </script>
 
 <style scoped lang="scss">
+section {
+    margin-bottom: 20px;
+}
+
 h5 {
     margin-top: 20px;
 }
@@ -31,7 +35,6 @@ p {
 
 img {
     width: 80%;
-    margin-bottom: 30px;
 }
 
 .video {

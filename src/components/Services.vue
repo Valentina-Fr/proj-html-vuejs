@@ -87,6 +87,7 @@ components: {
 section {
     background-color: #111117;
     color: #fff;
+    padding-bottom: 30px;
 }
 
 h5 {

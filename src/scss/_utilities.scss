@@ -19,13 +19,13 @@
 .brand-bg {
     background-color: $brand-primary;
     border-radius: 3px;
-    padding: 0 5px;
+    padding: 5px 8px;
 }
 
 .brand-bg-secondary {
     background-color: rgba(0, 166, 166, 0.2);
     border-radius: 3px;
-    padding: 0 5px;
+    padding: 5px 8px;
 }
 
 .btn-brand {
@@ -53,4 +53,14 @@
 
 .pe-15 {
     padding-right: 15px;
+}
+
+.py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.py-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }

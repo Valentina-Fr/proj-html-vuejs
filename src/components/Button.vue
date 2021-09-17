@@ -13,7 +13,7 @@ props: ['text']
     button {
         color: #fff;
         border-radius: 5px;
-        padding: 5px 10px;
+        padding: 10px 18px;
         text-transform: uppercase;
         font-size: 0.9rem;
         border-width: 1px;
