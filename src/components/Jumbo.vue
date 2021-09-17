@@ -32,6 +32,9 @@ components: {
     div {
       max-width: 50%;
     }
+    h1 {
+      font-size: 2.6rem;
+    }
   }
   .btn-brand, .btn-border {
     margin: 0 15px;
